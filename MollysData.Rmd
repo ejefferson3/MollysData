@@ -21,7 +21,18 @@ mutate(across(where(is.character), as.factor))
 
 ## A Replace the pairs plot with appropriate graphical display as you analyze todays problem.
 
-```{r}
-pairs(Mdata)
-```
+### Plot boxplots
 
+```{r}
+plot(alcohol~class,data=Mdata)
+```
+# Numerical results
+
+```{r}
+favstats(alcohol~class,data=Mdata)
+```
+# Inferential  
+  
+```{r}
+t.test(alcohol~class,data=Mdata)
+```
