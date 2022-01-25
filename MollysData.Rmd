@@ -1,6 +1,6 @@
 ---
 title: "Mollys Data"
-author: "Dr K"
+author: "Eric Jefferson"
 output: 
   html_document:
     number_sections: true
